@@ -6,248 +6,133 @@
         Let's DO Something!
     </title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
+
 </head>
 
 <body>
-        <div class="topnav" id="myTopnav" style = "z-index: 10">
-            <a href="home.html" class="active">Home</a>
-            <a href="donate.html">Donate</a>
-            <a href="act.html">Act</a>
-            <a href="home.html"><img id="headerImg" src="images/letsDoSomething.png"></a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
+
+    <div class="topnav" id="myTopnav" style="z-index: 10">
+        <a class="topnav-left" href="index.html#twoHours" class="active">Our Mission</a>
+        <a class="topnav-left" href="donate.html">Donate</a>
+        <a class="topnav-left" href="act.html">Act</a>
+        <a class="topnav-left" href="index.html"><img id="headerImg" src="images/letsDoSomething.png"></a>
+        <div class="topnav-right">
+            <a href="www.espn.com"> <i class="fab fa-instagram"></i></a>
+            <a href="www.espn.com"> <i class="fab fa-facebook"></i></a>
+            <a href="www.espn.com"><i class="fab fa-twitter"></i></a>
         </div>
-        <div class="container" style = "z-index: -1">
-            <div class="row" style="text-align: center;">
-                <div class="col-md-3">
-                    <button style="font-size: 27px; color: red !important" type="button" class="btn btn-primary">
-                        <b>
-                            <a style=" color: white !important" href="donate.html">Donate</a>
-                        </b>
-                    </button>
-                </div>
-                <div class="col-md-6">
-                    <img id="headImage" src="images/letsDoSomething.png">
-                </div>
-                <div class="col-md-3">
-                    <button style="font-size: 27px" type="button" class="btn btn-primary">
-                        <b>
-                            <a style=" color: white !important" href="act.html">Act</a>
-                        </b>
-                    </button>
-                </div>
-                <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
-            <a class="navbar-brand" id="jacob" href="index.html"><img id="headerImg"
-                    src="images/letsDoSomething.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="donate.html">Donate</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="act.html">Act</a>
-                    </li>
-                </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="container" style="background-color: white;">
+        <div style="z-index: -1">
+            <div class="middleNav" style="color: red !important">
+                <a id="mission" href="index.html#twoHours" class="active">Our Mission</a>
+                <a id="donate" href="donate.html">Let's Do Something</a>
+                <a id="act" href="act.html">Act</a>
+                <a id="act" href="contact.html">Contact</a>
             </div>
-        </nav> -->
-            </div>
-
-            <div>
-                <div>
-                    vlnwerg 'ewpgnre gemrk fkwe fl ewkjf wejf wejk few 'What is Lorem Ipsum?
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and
-                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap
-                    into
-                    electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                    release of
-                    Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
-                    like
-                    Aldus PageMaker including versions of Lorem Ipsum.
-
-                    Why do we use it?
-                    It is a long established fact that a reader will be distracted by the readable content of a page
-                    when
-                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                    distribution
-                    of
-                    letters, as opposed to using 'Content here, content here', making it look like readable English.
-                    Many
-                    desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
-                    and a
-                    search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have
-                    evolved
-                    over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-
-                    Where does it come from?
-                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                    classical
-                    Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
-                    Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from
-                    a
-                    Lorem
-                    Ipsum passage, and going through the cites of the word in classical literature, discovered the
-                    undoubtable
-                    source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
-                    Extremes
-                    of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very
-                    popular
-                    during the Renaissance. The first line of Lorem Ipsum, "
-                </div>
-                <div>
-                    vlnwerg 'ewpgnre gemrk fkwe fl ewkjf wejf wejk few 'What is Lorem Ipsum?
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and
-                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap
-                    into
-                    electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                    release of
-                    Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
-                    like
-                    Aldus PageMaker including versions of Lorem Ipsum.
-
-                    Why do we use it?
-                    It is a long established fact that a reader will be distracted by the readable content of a page
-                    when
-                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                    distribution
-                    of
-                    letters, as opposed to using 'Content here, content here', making it look like readable English.
-                    Many
-                    desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
-                    and a
-                    search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have
-                    evolved
-                    over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-
-                    Where does it come from?
-                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                    classical
-                    Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
-                    Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from
-                    a
-                    Lorem
-                    Ipsum passage, and going through the cites of the word in classical literature, discovered the
-                    undoubtable
-                    source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
-                    Extremes
-                    of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very
-                    popular
-                    during the Renaissance. The first line of Lorem Ipsum, "
-                </div>
-                <div>
-                    vlnwerg 'ewpgnre gemrk fkwe fl ewkjf wejf wejk few 'What is Lorem Ipsum?
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and
-                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap
-                    into
-                    electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                    release of
-                    Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
-                    like
-                    Aldus PageMaker including versions of Lorem Ipsum.
-
-                    Why do we use it?
-                    It is a long established fact that a reader will be distracted by the readable content of a page
-                    when
-                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                    distribution
-                    of
-                    letters, as opposed to using 'Content here, content here', making it look like readable English.
-                    Many
-                    desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
-                    and a
-                    search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have
-                    evolved
-                    over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-
-                    Where does it come from?
-                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                    classical
-                    Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
-                    Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from
-                    a
-                    Lorem
-                    Ipsum passage, and going through the cites of the word in classical literature, discovered the
-                    undoubtable
-                    source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
-                    Extremes
-                    of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very
-                    popular
-                    during the Renaissance. The first line of Lorem Ipsum, "
-                </div>
-                <div>
-                    vlnwerg 'ewpgnre gemrk fkwe fl ewkjf wejf wejk few 'What is Lorem Ipsum?
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and
-                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap
-                    into
-                    electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                    release of
-                    Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
-                    like
-                    Aldus PageMaker including versions of Lorem Ipsum.
-
-                    Why do we use it?
-                    It is a long established fact that a reader will be distracted by the readable content of a page
-                    when
-                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                    distribution
-                    of
-                    letters, as opposed to using 'Content here, content here', making it look like readable English.
-                    Many
-                    desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
-                    and a
-                    search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have
-                    evolved
-                    over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-
-                    Where does it come from?
-                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                    classical
-                    Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
-                    Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from
-                    a
-                    Lorem
-                    Ipsum passage, and going through the cites of the word in classical literature, discovered the
-                    undoubtable
-                    source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
-                    Extremes
-                    of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very
-                    popular
-                    during the Renaissance. The first line of Lorem Ipsum, "
+            <div id="bigHeader" class="row" style="text-align: center; background-color: white">
+                <div class="col-md-12">
+                    <img style="padding-bottom: 20px" id="headImage" src="images/letsDoSomething.png">
                 </div>
             </div>
-        <footer><img id='footerImg' src="images/letsDoSomething.png"> ©
-        </footer>
+            <!-- <div class="row" style="text-align: center; background-color: white">
+                <div class="col-md-2" style="font-size: 20px">
+                    <b>
+                        <a style=" color: blue !important" href="donate.html">Donate</a>
+                    </b>
+                </div>
+                <div class="col-md-2" style="font-size: 20px">
+                    <b>
+                        <a style=" color: blue !important" href="act.html">Act</a>
+                    </b>
+                </div>
+                <div class="col-md-2" style="font-size: 20px">
+                    <b>
+                        <a style=" color: blue !important" href="act.html">Act</a>
+                    </b>
+                </div>
+                <div class="col-md-2" style="font-size: 20px">
+                    <b>
+                        <a style=" color: blue !important" href="act.html">Act</a>
+                    </b>
+                </div>
+                <div class="col-md-2" style="font-size: 20px">
+                    <b>
+                        <a style=" color: blue !important" href="act.html">Act</a>
+                    </b>
+                </div>
+                <div class="col-md-2" style="font-size: 20px">
+                    <b>
+                        <a style=" color: blue !important" href="act.html">Act</a>
+                    </b>
+                </div>
+            </div> -->
+        </div>
+        <div class=row>
+            <div class='col-md-4'>
+                <img id="sam1" class="uncleSam" src="images/uncleSam.png">
+            </div>
+            <div class='col-md-4'>
+                <img id="sam2" class="uncleSam" src="images/uncleSam.png">
+            </div>
+            <div class='col-md-4'>
+                <img id="sam3" class="uncleSam" src="images/uncleSam.png">
+            </div>
+        </div>
+        <div>
+            <div id = "twoHours" data-aos="zoom-in-up" class='jumbotron'>
+                EVERYONE HAS 2 HOURS
+            </div>
+            It's not an exaggeration to say that America is in the midst of an existential crisis*. The only way to turn
+            the tide is to prevent Donald Trump from being elected President to a second term. The reality is that DT
+            will be re-elected unless people do something about it. And you know what's cool? WE are people! We have
+            agency. And no one else will do it for us; it's on us. How many minutes a month do we read or listen to the
+            news and feel terrible? What if we took even 5% of that time and replaced it with actually DOING something
+            to stop this?
+            </p>
+
+            The truth is that while we’re all busy, literally EVERYONE can find 2 hours a month to save our democracy.
+            Yes, including you! So, let's do something! Something doesn't have to be "everything," or even "a lot," but
+            it has to be "something." Just once a month is all we're going for.
+            </p>
+            While there are many ways to be politically active, this tool is about 1 thing -- getting Trump out of the
+            office, and on a blue wave that allows Democrats to flip the Senate.
+            </p>
+            This tool will help us hold ourselves accountable by making sure we do what we all know is so important --
+            donating our time and our money to saving America.
+            </p>
+
+            Groups of friends, families, acquaintances, whoever, can take this tool and use it to hold each other
+            accountable. By signing up, every member of your group commits to donating their $ and their time once a
+            month from now through November 2020. By the last day of the month, each team member will track their
+            progress on their team's "Track My Progress" tracker for themselves and the group to see! Need ideas on
+            where to donate and how to act? Check out the e-mail your captain will send to you each month, and the other
+            tabs in this file --> -->.
+            </p>
+
+            Speaking of which, each group should have a team captain. The team captain is responsible for making things
+            as easy as possible for members! And we will make it as easy as possible for captains! It takes less than 1
+            hour/month to be a team captain. If you are interested in becoming a team captain e-mail us for
+            instructions: letsdosomething2020@gmail.com.</p>
+            While traditional Democratic priorities like health care & the economy are important to many of us, this
+            isn't about that. We are focused on existential threats that should not be political, like our President
+            preaching blatant racism, his leadership in the erosion of democratic norms, and his support for destroying
+            this planet by ignoring climate change.
+        </div>
+    </div>
+    <footer>Let's DO Something Inc. ©
+    </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -258,6 +143,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 <script type="text/javascript" src="script.js"></script>
 
