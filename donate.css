@@ -6,7 +6,7 @@
     /* border-bottom: 2px solid red; */
     position: fixed;
     text-align: center;
-    top: -50px;
+    top: 0px;
     width: 100%;
     margin: auto;
     display: block;
@@ -14,6 +14,28 @@
     font-family: "Gotham Pro";
     font-weight: 200px
 }
+#what{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: #004789;
+}
+/* #triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 150px solid #EF3D55;
+    border-right: 150px solid #EF3D55;
+    border-bottom: 300px solid white;
+    background-color: white;
+    position: relative;
+    top: 100px;
+    left: 50px
+  } */
+  #whiteHouse{
+      width: 500px; 
+      height: auto;
+  }
+
 
 html {
     scroll-behavior: smooth;
