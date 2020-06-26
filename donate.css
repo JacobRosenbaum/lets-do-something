@@ -14,12 +14,52 @@
     font-family: "Gotham Pro";
     font-weight: 200px
 }
-#what{
+
+#where {
     text-align: center;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 35px;
     color: #004789;
+    margin-top: 50px;
+    background-color: none
 }
+#vote {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #004789;
+    cursor: pointer;
+}
+
+#vote:hover {
+    zoom: 101%
+}
+
+#white:hover {
+    zoom: 101%
+}
+
+#senate:hover {
+    zoom: 101%
+}
+
+#senate {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #004789;
+    cursor: pointer;
+}
+
+#white {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #004789;
+    cursor: pointer;
+}
+
+
 /* #triangle-up {
     width: 0;
     height: 0;
@@ -31,10 +71,7 @@
     top: 100px;
     left: 50px
   } */
-  #whiteHouse{
-      width: 500px; 
-      height: auto;
-  }
+
 
 
 html {
@@ -43,6 +80,10 @@ html {
 
 body {
     font-family: "Gotham";
+    background-image: url("./images/whiteHouse.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #twoHours {
@@ -62,7 +103,7 @@ body {
 }
 
 button {
-    background-color:#EF3D55;
+    background-color: #EF3D55;
     border-radius: 10px;
     padding: 10px;
     color: #004789;
