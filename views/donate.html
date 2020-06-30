@@ -11,7 +11,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="donate.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/donate.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
         rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
@@ -25,7 +25,7 @@
         <a class="topnav-left" href="index.html#mission" class="active">Our Mission</a>
         <a class="topnav-left" href="donate.html">Donate</a>
         <a class="topnav-left" href="act.html">Act</a>
-        <a class="topnav-left" href="index.html"><img id="headerImg" src="images/letsDoSomething.png"></a>
+        <a class="topnav-left" href="index.html"><img id="headerImg" src="../assets/images/letsDoSomething.png"></a>
         <div class="topnav-right">
             <a href="www.espn.com"> <i class="fab fa-instagram"></i></a>
             <a href="www.espn.com"> <i class="fab fa-facebook"></i></a>
@@ -35,25 +35,58 @@
             <i class="fa fa-bars"></i>
         </a>
     </div>
-    <img id="whiteHouse">
-    <div class="container">
-        <div id="where">
-            Want to donate but don't know where? Consider choosing from these 3 buckets.
+        <div class="jumbotron w3-animate-opacity"">
+        <div id=" where">
+            <p id="want">
+                Want to
+                <span class="red"> donate </span> but don't know where?
+            </p>
+            <p id="buckets">
+                Consider choosing from these 3 buckets.
+            </p>
         </div>
-
-    </div>
-
-    <!-- <div class='container'>
-        <div class='jumbotron' style="text-align: center; background-color: white">
-                <span id="vote"> VOTING RIGHTS </span><img id="whiteHouse" src="images/whiteHouse.webp"> <span id="senate"> U.S. SENATE</span> 
-        </div>
-        <div ID='what'>
-            <div>
-                
+        <div class='row'>
+            <div class='col-md-4'>
+                <img id="vote" src="../assets/images/vote.png">
+            </div>
+            <div class='col-md-4'>
+                <img id="wh2" src="../assets/images/whiteHouse.jpg">
+            </div>
+            <div class='col-md-4'>
+                <img id="senate" src="../assets/images/senate.jpg">
             </div>
         </div>
-        <div id="white"> WHITE HOUSE</div>
-    </div> -->
+        <div class='row red options'>
+            <div class='col-md-4'>
+                <div>
+                    VOTING RIGHTS
+                </div>
+            </div>
+            <div class='col-md-4'>
+                <div>
+                    WHITE HOUSE
+                </div>
+            </div>
+            <div class='col-md-4'>
+                <div>
+                    SENATE
+                </div>
+            </div>
+        </div>
+        <div id="votingRights" data-aos="zoom-in-up" class='jumbotron'>
+            VOTING RIGHTS
+        </div>
+        <div class='row'>
+            <div class='col-md-6'>
+                <img id='fairFight' src="../assets/images/fairFight.png">
+            </div>
+            <div class='col-md-6' style="background: white; color: #004789">
+                    Enable people to actually vote by fighting voter suppression on the ground in key states. 
+                    Plus I do whatever Stacey Abrams tells me.
+        </div>
+    </div>
+    </div>
+
     <footer>Let's DO Something Inc. ©
     </footer>
     </div>
