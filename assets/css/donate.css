@@ -12,7 +12,8 @@
     display: block;
     transition: top 0.3s;
     font-family: "Gotham Pro";
-    font-weight: 200px
+    font-weight: 200px;
+    color: #004789 !important;
 }
 
 .jumbotron {
@@ -21,6 +22,14 @@
     color: #004789;
     margin-top: 50px;
     background-color: white;
+}
+a {
+    color: #EF3D55;
+    cursor: pointer;
+}
+a:hover{
+    zoom: 105%;
+    text-decoration: none
 }
 #wh2{
     height: 250px; 
@@ -70,12 +79,26 @@ button:hover {
     font-weight: bold;
     font-size: 40px;
     color: #004789;
-    margin-top: 150px
 }
 #fairFight{
     width: 300px
 }
-
+#rightsPic{
+    width: 1500px;
+    margin-top: 350px;
+    text-align: left;
+    border-radius: 5px;
+}
+.rights{
+    border-radius: 5px; 
+    width: 300px
+}
+#votingRow{
+    margin-top: 75px
+}
+#fairFightRow{
+    margin-top: 50px
+}
 .topnav-right {
     float: right !important;
 }
