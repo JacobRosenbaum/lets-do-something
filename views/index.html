@@ -21,8 +21,8 @@
 
 <body>
 
-    <div class="topnav" id="myTopnav" style="z-index: 10">
-        <a class="topnav-left" href="index.html#mission" class="active">Our Mission</a>
+    <div class="topnav" id="myTopnav" style="z-index: 2000">
+        <a class="topnav-left" href="index.html#parentMission" class="active">Our Mission</a>
         <a class="topnav-left" href="donate.html">Donate</a>
         <a class="topnav-left" href="act.html">Act</a>
         <a class="topnav-left" href="index.html"><img id="headerImg" src="../assets/images/letsDoSomething.png"></a>
@@ -48,38 +48,6 @@
                     <img style="padding-bottom: 20px" id="headImage" src="../assets/images/letsDoSomething.png">
                 </div>
             </div>
-            <!-- <div class="row" style="text-align: center; background-color: white">
-                <div class="col-md-2" style="font-size: 20px">
-                    <b>
-                        <a style=" color: blue !important" href="donate.html">Donate</a>
-                    </b>
-                </div>
-                <div class="col-md-2" style="font-size: 20px">
-                    <b>
-                        <a style=" color: blue !important" href="act.html">Act</a>
-                    </b>
-                </div>
-                <div class="col-md-2" style="font-size: 20px">
-                    <b>
-                        <a style=" color: blue !important" href="act.html">Act</a>
-                    </b>
-                </div>
-                <div class="col-md-2" style="font-size: 20px">
-                    <b>
-                        <a style=" color: blue !important" href="act.html">Act</a>
-                    </b>
-                </div>
-                <div class="col-md-2" style="font-size: 20px">
-                    <b>
-                        <a style=" color: blue !important" href="act.html">Act</a>
-                    </b>
-                </div>
-                <div class="col-md-2" style="font-size: 20px">
-                    <b>
-                        <a style=" color: blue !important" href="act.html">Act</a>
-                    </b>
-                </div>
-            </div> -->
         </div>
         <div class=row>
             <div class='col-md-4'>
@@ -92,13 +60,17 @@
                 <img id="sam3" class="uncleSam" src="../assets/images/uncleSam.png">
             </div>
         </div>
-        <div>
+        <div id = 'parentMission'>
             <div id="mission" data-aos="zoom-in-up" class='jumbotron'>
                 OUR MISSION
             </div>
             <div class='row'>
                 <div class='col-md-4'>
-                    <img id='trump' src="../assets/images/trump.png">
+                    <div class = 'row'>
+                        <img id='trump' src="../assets/images/trump.png" style="z-index: 1">
+                        <img  id='crossOut' src="../assets/images/crossOut.png"
+                            style="z-index: 111; position: relative; bottom: 320px; left: 30px">
+                    </div>
                 </div>
                 <div id='crisis' class='col-md-8' style="background: white; color: #004789">
                     It's not an exaggeration to say that America is in the midst of an existential crisis. The only way
@@ -174,7 +146,7 @@
             <button>I WANT TO DO SOMETHING
             </button>
         </div>
-<!-- 
+        <!-- 
 <div>
         Groups of friends, families, acquaintances, whoever, can take this tool and use it to hold each other
         accountable. By signing up, every member of your group commits to donating their $ and their time once a
