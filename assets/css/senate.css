@@ -1,5 +1,3 @@
-/* @import url(//db.onlinewebfonts.com/c/3a47f5f06b5484abfeee9eac90348a9c?family=Gotham);
-@font-face {font-family: "Gotham"; src: url("//db.onlinewebfonts.com/t/3a47f5f06b5484abfeee9eac90348a9c.eot"); src: url("//db.onlinewebfonts.com/t/3a47f5f06b5484abfeee9eac90348a9c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3a47f5f06b5484abfeee9eac90348a9c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3a47f5f06b5484abfeee9eac90348a9c.woff") format("woff"), url("//db.onlinewebfonts.com/t/3a47f5f06b5484abfeee9eac90348a9c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3a47f5f06b5484abfeee9eac90348a9c.svg#Gotham") format("svg"); } */
 .topnav {
     overflow: hidden;
     background-color: #EF3D55;
@@ -54,22 +52,6 @@ a:hover {
     margin-bottom: 50px
 }
 
-.options {
-    margin-top: 25px;
-}
-
-#color1:hover {
-    color: #004789
-}
-
-#color2:hover {
-    color: #004789
-}
-
-#color3:hover {
-    color: #004789
-}
-
 #vote {
     height: 250px;
     position: relative;
@@ -113,7 +95,7 @@ button:hover {
     zoom: 105%
 }
 
-#votingRights {
+#senate {
     background-color: white;
     text-align: center;
     font-weight: bold;
@@ -121,8 +103,9 @@ button:hover {
     color: #004789;
 }
 
-#fairFight {
-    width: 300px
+#getMitchPic {
+    width: 250px;
+    border-radius: 7px
 }
 
 #rightsPic {
@@ -153,8 +136,8 @@ button:hover {
     width: 300px
 }
 
-#votingRow {
-    margin-top: 105px
+#senateRow {
+    margin-top: 0px
 }
 
 #nominee {
