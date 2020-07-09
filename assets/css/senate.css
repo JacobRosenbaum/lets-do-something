@@ -13,13 +13,19 @@
     font-weight: 200px;
     color: #004789 !important;
 }
+body{
+        background-image: url('../images/obama.png'), url('../images/uncleSam.png');
+        background-repeat: no-repeat, no-repeat;
+        background-size: 50% 100%;
+        background-position: left top, right top;
+        z-index: 500
+}
 
 .jumbotron {
     text-align: center;
     font-size: 25px;
     color: #004789;
-    margin-top: 50px;
-    background-color: white;
+    background-color: white
 }
 
 a {
@@ -62,10 +68,6 @@ a:hover {
     width: 700px
 }
 
-#senate {
-    height: 250px;
-}
-
 #other {
     position: relative;
     top: 50px
@@ -95,12 +97,58 @@ button:hover {
     zoom: 105%
 }
 
+@keyframes typewriter {
+
+    0%,
+    100% {
+        width: 0;
+    }
+
+    20%,
+    80% {
+        width: 6.7em;
+    }
+}
+
+@keyframes caret {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
 #senate {
     background-color: white;
     text-align: center;
     font-weight: bold;
     font-size: 40px;
     color: #004789;
+}
+
+#typewriterSenate {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typewriter;
+    display: inline-block;
+    position: relative;
+    animation: typewriter;
+    animation-duration: 10s;
+    animation-timing-function: steps(25, end);
+    animation-iteration-count: infinite;
+}
+
+#typewriterSenate::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    animation: caret infinite;
+    animation-duration: 1s;
+    animation-timing-function: steps(1, end);
 }
 
 #getMitchPic {
@@ -136,9 +184,6 @@ button:hover {
     width: 300px
 }
 
-#senateRow {
-    margin-top: 0px
-}
 
 #nominee {
     position: relative;
@@ -222,7 +267,7 @@ i {
 }
 
 footer {
-    flex-shrink: 0;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
